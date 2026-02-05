@@ -3,4 +3,4 @@ INSERT INTO books (id, title, author, public_date, category, isbn, score, price,
 INSERT INTO books (id, title, author, public_date, category, isbn, score, price, stock, visible) VALUES (3, 'La Sombra del Viento', 'Carlos Ruiz Zafón', '2001-04-12', 'Misterio', '978-0-12-345678-9', 4.6, 12.99, 75, true);
 INSERT INTO books (id, title, author, public_date, category, isbn, score, price, stock, visible) VALUES (4, 'Ficciones', 'Jorge Luis Borges', '1944-06-15', 'Cuentos', '978-9-87-654321-0', 4.9, 14.99, 30, true);
 INSERT INTO books (id, title, author, public_date, category, isbn, score, price, stock, visible) VALUES (5, 'El Amor en los Tiempos del Cólera', 'Gabriel García Márquez', '1985-09-05', 'Novela', '978-4-56-789012-3', 4.5, 18.99, 60, true);
-INSERT INTO books (id, title, author, public_date, category, isbn, score, price, stock, visible) VALUES (6, 'Rayuela', 'Julio Cortázar', '1963-02-28', 'Novela', '978-7-89-012345-6', 4.4, 16.99, 40, true);
+INSERT INTO books (id, title, author, public_date, category, isbn, score, price, stock, visible) VALUES (6, 'Rayuela', 'Julio Cortázar', '1963-02-28', 'Novela', '978-7-89-012345-6', 4.4, 16.99, 40, false);

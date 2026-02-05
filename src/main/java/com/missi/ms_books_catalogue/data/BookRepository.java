@@ -18,7 +18,9 @@ public class BookRepository {
     private final BookJpaRepository bookJpaRepository;
 
     public List<Book> getBooks(){
-        return bookJpaRepository.findAll();
+        SearchCriteria<Book> spec = new SearchCriteria<>();
+        spec.add(new SearchStatement(Consts.VISIBLE, true, SearchOperation.EQUAL));
+        return bookJpaRepository.findAll(spec);
     }
 
     public Book getBookById(Long id){
