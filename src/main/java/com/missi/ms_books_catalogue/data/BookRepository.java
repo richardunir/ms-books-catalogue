@@ -59,6 +59,8 @@ public class BookRepository {
         }
         if(visible != null){
             spec.add(new SearchStatement(Consts.VISIBLE,visible, SearchOperation.EQUAL));
+        }else{
+            spec.add(new SearchStatement(Consts.VISIBLE, true, SearchOperation.EQUAL));
         }
         if(price != null){
             spec.add(new SearchStatement(Consts.PRICE,price, SearchOperation.EQUAL));
